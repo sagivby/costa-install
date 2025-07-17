@@ -1,6 +1,6 @@
 # Costa Install
 
-This repository contains the installation files for [Costa](https://costa.app), the world's most secure AI Coding platform.
+This repository contains the installation files for [Costa](https://costa.security), the world's most secure AI Coding platform.
 
 ## Installation for Continue
 
@@ -10,7 +10,7 @@ This repository contains the installation files for [Costa](https://costa.app), 
    - [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Continue.continue)
    - [JetBrains Plugin](https://plugins.jetbrains.com/plugin/22707-continue)
 
-2. **Costa API Key**: Get your API key from [Costa](https://costa.app)
+2. **Costa API Key**: Get your API key from [Costa](https://costa.security)
 
 ### Quick Install
 
