@@ -12,16 +12,37 @@ models:
     apiKey: REPLACE_WITH_YOUR_API_KEY
     capabilities:
       - tool_use
-  - name: Gemini 2.5 Pro
+  - name: Qwen3 Coder
     provider: openai
-    model: gemini-2.5-pro
+    model: qwen3-coder
     apiBase: https://ai.costa.app/api/v1
     apiKey: REPLACE_WITH_YOUR_API_KEY
     capabilities:
       - tool_use
-  - name: Claude Sonnet 4
+  - name: Qwen3 32b
     provider: openai
-    model: claude-sonnet-4
+    model: qwen3-32b
+    apiBase: https://ai.costa.app/api/v1
+    apiKey: REPLACE_WITH_YOUR_API_KEY
+    capabilities:
+      - tool_use
+  - name: Llama 4 Maverick
+    provider: openai
+    model: llama-4-maverick-17b-128e-instruct
+    apiBase: https://ai.costa.app/api/v1
+    apiKey: REPLACE_WITH_YOUR_API_KEY
+    capabilities:
+      - tool_use
+  - name: o4 Mini
+    provider: openai
+    model: o4-mini
+    apiBase: https://ai.costa.app/api/v1
+    apiKey: REPLACE_WITH_YOUR_API_KEY
+    capabilities:
+      - tool_use
+  - name: GPT 4.1
+    provider: openai
+    model: gpt-4.1
     apiBase: https://ai.costa.app/api/v1
     apiKey: REPLACE_WITH_YOUR_API_KEY
     capabilities:
@@ -40,37 +61,16 @@ models:
     apiKey: REPLACE_WITH_YOUR_API_KEY
     capabilities:
       - tool_use
-  - name: GPT 4.1
+  - name: Claude Sonnet 4
     provider: openai
-    model: gpt-4.1
+    model: claude-sonnet-4
     apiBase: https://ai.costa.app/api/v1
     apiKey: REPLACE_WITH_YOUR_API_KEY
     capabilities:
       - tool_use
-  - name: GPT 4o
+  - name: Gemini 2.5 Pro
     provider: openai
-    model: gpt-4o
-    apiBase: https://ai.costa.app/api/v1
-    apiKey: REPLACE_WITH_YOUR_API_KEY
-    capabilities:
-      - tool_use
-  - name: Qwen3 Coder
-    provider: openai
-    model: qwen3-coder
-    apiBase: https://ai.costa.app/api/v1
-    apiKey: REPLACE_WITH_YOUR_API_KEY
-    capabilities:
-      - tool_use
-  - name: Qwen3 32b
-    provider: openai
-    model: qwen3-32b
-    apiBase: https://ai.costa.app/api/v1
-    apiKey: REPLACE_WITH_YOUR_API_KEY
-    capabilities:
-      - tool_use
-  - name: Llama 4 Maverick
-    provider: openai
-    model: llama-4-maverick-17b-128e-instruct
+    model: gemini-2.5-pro
     apiBase: https://ai.costa.app/api/v1
     apiKey: REPLACE_WITH_YOUR_API_KEY
     capabilities:
